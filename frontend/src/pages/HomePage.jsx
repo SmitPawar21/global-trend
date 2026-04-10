@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import TaskForm from '../components/TaskForm';
 import TaskList from '../components/TaskList';
 
-const API_URL = 'http://localhost:5000/api/tasks';
+const API_URL = 'https://global-trend-g5rz.onrender.com/api/tasks';
 
 const HomePage = () => {
     const [tasks, setTasks] = useState([]);
